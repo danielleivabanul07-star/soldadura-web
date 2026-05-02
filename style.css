@@ -11,16 +11,13 @@ body {
   font-family: Arial, sans-serif;
 
   background:
-    linear-gradient(
-      rgba(0,0,0,0.45),
-      rgba(0,0,0,0.45)
-    ),
-    url("fondoweb.png");
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("imaguenes/fondoweb.png");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 
   color: white;
   line-height: 1.6;
