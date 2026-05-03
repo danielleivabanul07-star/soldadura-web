@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("imaguenes/fondoweb.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  color: white;
+  line-height: 1.6;
+}
+.hero {
+  min-height: 100vh;
+  background: transparent;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h2 {
+  color: #ffcc00;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.hero-content {
+  max-width: 850px;
+  margin: 130px auto 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yellow {
+  background: #ffcc00;
+  color: black;
+}
+
+.green {
+  background: #25d366;
+  color: white;
+}
+
+.white {
+  background: white;
+  color: black;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+.about,
+.services,
+.gallery,
+.contact,
+.appointment {
+ background: rgba(0,0,0,0.30);
+}
+
+.about h2,
+.services h2,
+.gallery h2,
+.appointment h2,
+.contact h2 {
+  color: #ffcc00;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.services {
+  background: #111;
+}
+
+.cards {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #ffcc00;
+  margin: 15px 0 10px;
+}
+
+.btn-card {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ffcc00;
+  color: rgb(0, 0, 0);
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-card:hover {
+  background: #e6b800;
+}
+
+.gallery {
+  background: #1a1a1a;
+}
+
+.gallery.dark {
+  background: #111;
+}
+
+.gallery-grid {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 25px;
+  background: white;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.appointment {
+  background: #111;
+}
+
+.appointment p {
+  margin-bottom: 25px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 130px;
+}
+
+button {
+  background: #ffcc00;
+  color: black;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6b800;
+}
+#contacto a,
+#contacto a:link,
+#contacto a:visited,
+#contacto a:hover,
+#contacto a:active {
+    color: #ffcc00 !important;
+    text-decoration: none !important;
+}
+
+   .back-home,
+.back-home:link,
+.back-home:visited,
+.back-home:hover,
+.back-home:active {
+    display: inline-block;
+    margin-top: 40px;
+    background: #ffcc00;
+    color: black !important;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+    
