@@ -1,21 +1,27 @@
 function enviarWhatsApp(event) {
-  event.preventDefault();
+    event.preventDefault();
 
-  const nombre = document.getElementById("nombre").value;
-  const servicio = document.getElementById("servicio").value;
-  const fecha = document.getElementById("fecha").value;
-  const mensaje = document.getElementById("mensaje").value;
+    const nombre = document.getElementById("nombre").value;
+    const telefonoCliente = document.getElementById("telefonoCliente").value;
+    const servicio = document.getElementById("servicio").value;
+    const fecha = document.getElementById("fecha").value;
+    const hora = document.getElementById("hora").value;
+    const mensaje = document.getElementById("mensaje").value;
 
-  const telefono = "16892220829";
+    const telefonoNegocio = "16892220829";
 
-  const texto = `Hola, mi nombre es ${nombre}. 
-Quiero una cotización gratis.
+    const texto = `Hola, quiero agendar una cita o pedir una cotización gratis.
 
-Servicio que necesito: ${servicio}
-Fecha preferida para la cita: ${fecha}
-Detalles del trabajo: ${mensaje}`;
+Nombre: ${nombre}
+Teléfono del cliente: ${telefonoCliente}
+Servicio solicitado: ${servicio}
+Fecha preferida: ${fecha}
+Hora preferida: ${hora}
 
-  const url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+Detalles:
+${mensaje}`;
 
-  window.open(url, "_blank");
+    const url = `https://wa.me/${telefonoNegocio}?text=${encodeURIComponent(texto)}`;
+
+    window.open(url, "_blank");
 }
