@@ -346,29 +346,3 @@ footer {
         background-position: center top;
         background-repeat: no-repeat;
     }
-}
-html,
-body {
-  min-height: 100%;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("fondoweb.png") center top / cover repeat-y !important;
-}
-
-section,
-.hero,
-.services-preview,
-.page-section,
-.contact,
-.gallery,
-.citas,
-footer {
-  background: transparent !important;
-}
-
-.card,
-.contact-box,
-.service-card,
-.gallery-card {
-  background: rgba(0, 0, 0, 0.75) !important;
-}
