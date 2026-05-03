@@ -14,7 +14,7 @@ body {
     background-repeat: repeat-y;
     background-size: 100% auto;
     background-position: top center;
-    color: white;
+    color: transparent;
     line-height: 1.6;
 }
 
