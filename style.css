@@ -7,31 +7,17 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-
-    background:
-        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("fondoweb.png");
-
-    background-size: cover;
-    background-position: center top;
+    background-image: url("fondoweb.png");
     background-repeat: repeat-y;
-    background-attachment: scroll;
-
+    background-size: 100% auto;
+    background-position: top center;
     color: white;
     line-height: 1.6;
 }
-@media (max-width: 700px) {
-    body {
-        background-size: cover;
-        background-position: top center;
-        background-repeat: repeat-y;
-        background-attachment: scroll;
-        background-color: transparent;
-    }
-}
+
 /* HERO PRINCIPAL */
 .hero {
   min-height: 100vh;
