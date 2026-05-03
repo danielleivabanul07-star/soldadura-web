@@ -6,7 +6,7 @@ function enviarWhatsApp(event) {
   const fecha = document.getElementById("fecha").value;
   const mensaje = document.getElementById("mensaje").value;
 
-  const telefono = "15025551234";
+  const telefono = "16892220829";
 
   const texto = `Hola, mi nombre es ${nombre}. 
 Quiero una cotización gratis.
