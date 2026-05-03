@@ -372,3 +372,9 @@ footer {
 .gallery-card {
   background: rgba(0, 0, 0, 0.75) !important;
 }
+.card h3,
+.card p,
+.services-preview h2,
+.page-section h2 {
+    color: white !important;
+}
