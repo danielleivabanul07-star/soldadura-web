@@ -39,16 +39,18 @@
   <script>
     const telefonoWhatsApp = "16892220829";
 
-    const horariosOcupados = {
-      "2026-05-05": ["09:00", "10:00", "14:00"],
-      "2026-05-06": ["11:00", "13:00", "15:00"]
-    };
+    const horariosOcupados = {};
 
-    const horariosDisponibles = [
-      "08:00", "09:00", "10:00", "11:00",
-      "12:00", "13:00", "14:00", "15:00",
-      "16:00", "17:00", "18:00"
-    ];
+   const horariosDisponibles = [
+  "08:00",
+  "09:00",
+  "10:00",
+  "11:00",
+  "13:00",
+  "14:00",
+  "15:00",
+  "16:00"
+];
 
     function buscarProximoHorario(fecha, horaSeleccionada) {
       const ocupados = horariosOcupados[fecha] || [];
