@@ -378,3 +378,11 @@ footer {
 .page-section h2 {
     color: white !important;
 }
+.contact h2,
+.contact p,
+.contact-box h2,
+.contact-box p,
+.page-section h2,
+.page-section p {
+    color: white !important;
+}
