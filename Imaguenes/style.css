@@ -350,3 +350,10 @@ footer {
   color: black !important;
 }
 }
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+}
