@@ -135,6 +135,7 @@ nav,
 section {
   padding: 60px 20px;
   text-align: center;
+}
 .services-preview,
 .page-section,
 .contact {
@@ -338,7 +339,6 @@ footer {
 .yellow:hover,
 .yellow:active {
   color: black !important;
-}
 }
 @media (max-width: 768px) {
     body {
