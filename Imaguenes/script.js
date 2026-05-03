@@ -8,7 +8,7 @@ function enviarWhatsApp(event) {
   const hora = document.getElementById("hora").value;
   const mensaje = document.getElementById("mensaje").value;
 
-  const telefonoNegocio = "15025551234";
+  const telefonoNegocio = "16892220829";
 
   const texto = `Hola, quiero agendar una cita o pedir una cotización gratis.
 
