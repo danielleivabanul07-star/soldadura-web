@@ -29,7 +29,7 @@ body {
         background-position: top center;
         background-repeat: repeat-y;
         background-attachment: scroll;
-        background-color: #000;
+        background-color: transparent;
     }
 }
 /* HERO PRINCIPAL */
